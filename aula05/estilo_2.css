@@ -1,8 +1,16 @@
-.lista-us{
-    background-color: yellow;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    
-    
+body {
+    margin: 0;                 /* Remove margens padrões do navegador */
+    display: flex;             /* Ativa o modo Flexbox */
+    justify-content: center;   /* Centraliza horizontalmente */
+    align-items: center;       /* Centraliza verticalmente */
+    min-height: 100vh;         /* Garante que o corpo tenha a altura total da tela */
+    background-color: #f0f2f5; /* Opcional: cor de fundo para destacar seu card */
+}
+.lista-us {
+    background-color: #ffffff; /* Cor de fundo */
+    border-radius: 8px;        /* Cantos arredondados */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave externa */
+    padding: 30px;             /* Espaço interno entre a borda e o conteúdo */
+    width: 100%;               /* Largura responsiva (ocupa toda a largura disponível) */
+    max-width: 600px;          /* Limite máximo de largura para não esticar demais */
 }
